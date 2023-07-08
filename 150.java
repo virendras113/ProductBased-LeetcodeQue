@@ -1,6 +1,8 @@
 // 150. Evaluate Reverse Polish Notation
 // You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
 
+// Approach - Stack (Work with the only two top-most visited numbers)
+
 class Solution {
     public int evalRPN(String[] tokens) {
 
